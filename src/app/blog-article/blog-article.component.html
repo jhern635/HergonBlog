@@ -1,0 +1,9 @@
+<ul class="blogArticle">
+  <li *ngFor="let blogArticle of blogArticles">
+    <div *ngIf="blogArticle.publish">
+      <h2>{{blogArticle.title}}</h2> 
+      <p>{{blogArticle.content}}</p>
+      <p class="date">{{blogArticle.posteddate}}</p>
+    </div>
+  </li> 
+</ul>  

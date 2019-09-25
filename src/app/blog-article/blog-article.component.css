@@ -1,0 +1,15 @@
+.blogArticle li {
+    background-color: bisque;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.blogArticle li h2 {
+    background-color: cornflowerblue;
+}
+
+.blogArticle li .date {
+    font-size: smaller;
+    font-style: italic;
+}
